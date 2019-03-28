@@ -1,0 +1,39 @@
+
+body{
+  background-color: #ECEEF1;
+  margin-top: 0px;
+}
+#Login {
+  margin-left: 78%;
+  height:20px;
+  margin-bottom: 250px;
+}
+header > button {
+  margin-top: -5px;
+  height: 34px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: #0077C5;
+  border: 1px solid #4c4c4c;
+}
+#toplogos {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+#toplogos > img {
+  display:inline-block;
+}
+#formarea {
+  background-color: white;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 2px;
+  height: 80%;
+  width: 380px;
+}
+.mainform{
+  background-color: white;
+}
+#EndofForm{
+  background-color: #ECEEF1;
+}
