@@ -3,34 +3,55 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minty</title>
+    <title><img src="images/icons/favicon.png" alt="">Minty</title>
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header id="Login">
+      <p><a href="#"></a></p>
+      <button type="button" name="button"></button>
     </header>
-    <p><a href="#"></a></p>
-    <button type="button" name="button"></button>
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <div id="toplogos">
+    <img src="images/intuit.png" alt="">
+    <img src="images/mintlogo.png" alt="">
+    <img src="images/quickbooks.png" alt="">
+    <img src="images/turbotax.png" alt="">
+    </div>
     <div id="Main">
+      <fieldset id="formarea">
       <form class="mainform" action="index.html" method="post">
-        <h2></h2>
-        <p><a href="#"></a></p>
-        <input type="email" name="Username" value="">
-        <input type="number" name="" value="">
-        <input type="password" name="" value="">
+        <h2>One Account. <br>Everything Intuit.</h2>
+        <p>Create an account for all of Intuit's products including Mint.<a href="#">Learn More</a></p>
+        <div id="Email">
+        <label for="emailinput">Email address</label>
+        <input type="email" name="Username" value="" id="emailinput">
+          </div>
+          <div id="Phone">
+        <label for="phoneinput">Phone (recommended)</label>
+        <input type="number" name="" value="" id="phoneinput">
+        </div>
+        <p>Standard call, messaging or data rates may apply.</p>
+        <div id="Password">
+        <label for="passinput">Password</label>
+        <input type="password" name="" value="" id="passinput">
+        </div>
+        <div id="submit">
         <button type="button" name="button"><img src="" alt="">Create Account</button>
-        <p></p>
-        <p><a href="#"></a><a href="#"></a></p>
+        </div>
+        <p id="EndofForm">By clicking Create Account, you agree to our
+        <a href="#">Terms of Service</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></p>
       </form>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <p></p>
+      <p>Invisible reCAPTCHA by Google
+      <a href="#">Privacy Policy</a> and<a href="#"> Terms of Use.</a></p>
+      </fieldset>
+      <footer id="bottom">
+      <a href="#">Legal</a>
+      <a href="#">Privacy</a>
+      <a href="#">Security</a>
+      <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+      </footer>
     </div>
   </body>
 </html>
