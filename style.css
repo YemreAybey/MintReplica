@@ -1,12 +1,12 @@
-
 body{
   background-color: #ECEEF1;
   margin-top: 0px;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #Login {
   margin-left: 78%;
   height:20px;
-  margin-bottom: 250px;
+  margin-bottom: 50px;
 }
 header > button {
   margin-top: -5px;
@@ -16,19 +16,16 @@ header > button {
   background-color: #0077C5;
   border: 1px solid #4c4c4c;
 }
-#toplogos {
-  margin-left: 35%;
-  margin-right: 35%;
-}
-#toplogos > img {
-  display:inline-block;
+
+.toplogos {
+  width:100%;
+  height:80px;
+  background-color: red;
 }
 #formarea {
   background-color: white;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin: 0 auto;
   border-radius: 2px;
-  height: 80%;
   width: 380px;
 }
 .mainform{
@@ -36,4 +33,24 @@ header > button {
 }
 #EndofForm{
   background-color: #ECEEF1;
+}
+.bottom, a {
+  margin-top: 30px;
+  height: 80px;
+  width: 100%;
+  color: #505050;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover {
+  text-decoration: underline;
+}
+.midding {
+  margin: 0 auto;
+}
+.botline {
+  width:60%;
+  text-align: center;
+  font-size: 12px;
 }
