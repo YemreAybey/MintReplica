@@ -15,7 +15,7 @@ body{
   font-size: 12px;
   color: #505050;
 }
-#LoginEx a {
+#LoginEx a, .FormHeader a, .FormHeader a:hover {
   text-decoration: none;
   color: #0077C5;
 }
@@ -51,13 +51,63 @@ header button {
   margin: 0 auto;
   border-radius: 2px;
   box-shadow: none;
-  width: 320px;
+  width: 310px;
   height: 600px;
   overflow: visible;
-  padding: 30px;
+  padding: 22px;
 }
 .mainform{
   background-color: white;
+}
+.FormHeader {
+  font-size: 14px;
+  text-align: center;
+  color: #4C4C4C;
+  margin-top: 5px;
+}
+.sign-up-header {
+  line-height: 1.1;
+  text-align: center;
+  font-size: 24px;
+}
+.mainform p {
+  padding: 15px;
+}
+label {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+input {
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: #000;
+  outline: 0;
+  font-size: 1.2em;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  height: 28px;
+  margin-bottom: 35px;
+}
+#Phone {
+  margin-bottom: 20px;
+}
+#warning {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  margin-top: -52px;
+  position: absolute;
+}
+#Password input {
+background-image: url("https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png");
+background-position: right top;
+background-repeat: no-repeat;
+background-size: contain;
 }
 #EndofForm{
   background-color: #ECEEF1;
