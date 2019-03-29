@@ -52,7 +52,7 @@ header button {
   border-radius: 2px;
   box-shadow: none;
   width: 310px;
-  height: 600px;
+  height: 625px;
   overflow: visible;
   padding: 22px;
 }
@@ -133,9 +133,44 @@ input {
   background-position:90px;
   background-repeat: no-repeat;
 }
+.mainform #submit {
+  height: 80px;
+}
+.mainform #endspace {
+  height: 20px;
+}
+.terms {
+  font-style: italic;
+  color: #757575;
+  font-size: 12px;
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.terms a, #EndofForm a {
+  color: #0077C5;
+}
 
 #EndofForm{
   background-color: #ECEEF1;
+  position: absolute;
+  margin-left: -22px;
+  height: 30px;
+  width: 359px;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+}
+#endtext {
+  display: block;
+  margin-top: 6px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+
 }
 .bottom, a {
   margin-top: 30px;
@@ -145,6 +180,10 @@ input {
   font-size: 12px;
   text-decoration: none;
   text-align: center;
+  line-height: 1.5;
+}
+.bottom a {
+  margin-left: 10px;
 }
 a:hover {
   text-decoration: underline;
@@ -153,7 +192,7 @@ a:hover {
   margin-left: 439px;
 }
 .botline {
-  width:60%;
+  width:48%;
   text-align: center;
   font-size: 12px;
 }
