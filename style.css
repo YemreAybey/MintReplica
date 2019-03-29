@@ -104,11 +104,36 @@ input {
   position: absolute;
 }
 #Password input {
-background-image: url("https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png");
-background-position: right top;
-background-repeat: no-repeat;
-background-size: contain;
+  background-image: url("https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png");
+  background-position:300px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  height: 30px;
 }
+.mainform #sign-up {
+  background: #0077C5;
+  border: #0077C5;
+  width:100%;
+  height: 44px;
+  border-radius: 4px;
+  text-shadow: none;
+  font-weight: 400;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+  min-width: 100px;
+  display: inline-block;
+  padding: 6px 12px;
+  line-height: 1.428571429;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 1.05em;
+  background-image: url("images/icons/whitelock2.png");
+  background-position:90px;
+  background-repeat: no-repeat;
+}
+
 #EndofForm{
   background-color: #ECEEF1;
 }
