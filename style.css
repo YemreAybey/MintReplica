@@ -1,0 +1,204 @@
+body{
+  background-color: #ECEEF1;
+  margin-top: 0px;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#Login {
+  height:36px;
+  width:285px;
+  float:right;
+  margin-bottom: 50px;
+  margin-right:20px;
+}
+#LoginEx {
+  margin-top: 13px;
+  text-align: right;
+  font-size: 12px;
+  color: #505050;
+  position: absolute;
+}
+#LoginEx a, .FormHeader a, .FormHeader a:hover {
+  text-decoration: none;
+  color: #0077C5;
+}
+#LoginButton{
+  float: right;
+  margin-top: 10px;
+  color: white;
+
+}
+#whitelock1 {
+margin-right: 4px;
+}
+#Login  button {
+  height: 34px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: #0077C5;
+  border: 1px solid #4c4c4c;
+}
+#intuit{
+  margin-bottom: 10px;
+}
+.toplogos {
+  width: 100%;
+  height:75px;
+  text-align: center;
+  margin-top: 250px;
+  overflow: auto;
+}
+#Main {
+  margin-top: 3px;
+}
+#formarea {
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: none;
+  width: 310px;
+  height: 625px;
+  overflow: visible;
+  padding: 22px;
+}
+.mainform{
+  background-color: white;
+}
+.FormHeader {
+  font-size: 14px;
+  text-align: center;
+  color: #4C4C4C;
+  margin-top: 5px;
+}
+.sign-up-header {
+  line-height: 1.1;
+  text-align: center;
+  font-size: 24px;
+}
+.mainform p {
+  padding: 15px;
+}
+label {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+input {
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: #000;
+  outline: 0;
+  font-size: 1.2em;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  height: 28px;
+  margin-bottom: 35px;
+}
+#Phone {
+  margin-bottom: 20px;
+}
+#warning {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  margin-top: -52px;
+  position: absolute;
+}
+#Password input {
+  background-image: url("https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png");
+  background-position:300px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  height: 30px;
+}
+.mainform #sign-up {
+  background: #0077C5;
+  border: #0077C5;
+  width:100%;
+  height: 44px;
+  border-radius: 4px;
+  text-shadow: none;
+  font-weight: 400;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+  min-width: 100px;
+  display: inline-block;
+  padding: 6px 12px;
+  line-height: 1.428571429;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 1.05em;
+  background-image: url("images/icons/whitelock2.png");
+  background-position:90px;
+  background-repeat: no-repeat;
+}
+.mainform #submit {
+  height: 80px;
+}
+.mainform #endspace {
+  height: 20px;
+}
+.terms {
+  font-style: italic;
+  color: #757575;
+  font-size: 12px;
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.terms a, #EndofForm a {
+  color: #0077C5;
+}
+
+#EndofForm{
+  background-color: #ECEEF1;
+  position: absolute;
+  margin-left: -22px;
+  height: 25px;
+  width: 359px;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+}
+#endtext {
+  display: block;
+  margin-top: 6px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+
+}
+.bottom, a {
+  margin-top: 30px;
+  height: 80px;
+  width: 100%;
+  color: #505050;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.5;
+}
+.bottom a {
+  margin-left: 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.botline {
+  width:48%;
+  text-align: center;
+  font-size: 12px;
+}
+.midding{
+  display: block;
+  margin: 0px auto;
+}
